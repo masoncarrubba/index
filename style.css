@@ -1,0 +1,55 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1d1d35; /* Dark background color */
+    color: white; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text horizontally */
+}
+
+.container {
+    background: #2b2b50; /* Dark background for the container */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Space inside the container */
+    width: 90%; /* Container takes up 90% of the width */
+    max-width: 800px; /* Container has a max width of 800px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Soft shadow effect */
+}
+
+h1 {
+    font-size: 2.5rem; /* Large text for the heading */
+    margin-bottom: 15px; /* Space below the heading */
+    color: #ffd700; /* Golden yellow color for the text */
+}
+
+button {
+   background: #ff6b81; /* Button background color */
+   border: none; /* No border for the button */
+   border-radius: 20px; /* Rounded corners */
+   color: white; /* White text on the button */
+   padding: 10px 20px; /* Padding inside the button */
+   cursor: pointer; /* Pointer cursor when hovering over the button */
+   font-size: 1rem; /* Button text size */
+   margin-top: 20px; /* Space above the button */
+   transition: background 0.3s ease; /* Smooth transition for background change */
+}
+
+button:hover {
+   background: #ff4f62; /* Darker color for hover effect */
+}
+
+.container img {
+    width: 80%; /* Image takes up 80% of the container's width */
+    max-width: 300px; /* Image can't be larger than 300px */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin: 20px auto; /* 20px margin on top and bottom, centered horizontally */
+    display: block; /* Ensure the image is centered */
+}
